@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    position: relative;
+  }
+  button {
+    cursor: pointer;
+    font-size: 48px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border:none;
+    background:none;
+    color:white;
+  }
+
+  
+  #slide-left {
+    position: absolute;
+    top: 50%;
+    left: -20;
+    margin-left:50px;
+  }
+  #slide-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right:50px;
+
+  }
+  
+  body{
+    display:flex;
+    background:black;
+    color:white;
+    align-items:center;
+    height:100vh;
+  }
+  .movie-poster {
+    object-fit: contain;
+    height:100%;
+    margin:0 auto;
+  }
+  
